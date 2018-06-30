@@ -40,7 +40,7 @@ def pearsoncorrelation(similarity):
         sum_xy += variable_x * variable_y
         sum_x2 += variable_x * variable_x
         sum_y2 += variable_y * variable_y
-        #ratingspairs += 1
+        ratingspairs += 1
         
     numerator = (ratingspairs * sum_xy) - ((sum_x)*(sum_y))
     denominator = sqrt((((ratingspairs*sum_x2)-(sum_x * sum_x))*((ratingspairs*sum_y2)-(sum_y * sum_y))))
